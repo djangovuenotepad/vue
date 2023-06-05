@@ -1,0 +1,42 @@
+/* 全局样式 */
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.el-breadcrumb {
+  /* position: fixed;
+    margin: -24px 0px; */
+  font-size: 15px;
+}
+
+.el-card {
+  box-shadow: 0 1px 1px rgb(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+}
+/* .el-popover {
+  background: #303133 !important;
+
+  min-width: auto !important;
+} */
+/* .popper__arrow::after {
+    border-color: #303133 !important;
+    border-top-color: white !important;
+    border-bottom-color: white !important;
+} */
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
